@@ -1,0 +1,143 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+.App {
+  font-family: 'Raleway';
+  section#banner {
+    height: 70vh;
+    background-color: #ecb0ad;
+     @include media-breakpoint-down(sm) {
+           height: 90vh;
+        }
+    .info {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      padding-bottom: 40px;
+      text-align: center;
+      .profile-image {
+        width: 180px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+            box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.3);
+        @include media-breakpoint-down(sm) {
+            width: 150px;
+        }
+      }
+      h1 {
+        font-weight: 700;
+        font-size: 34px;
+        @include media-breakpoint-down(sm) {
+           font-size: 28px;
+        }
+      }
+      h2 {
+        font-weight: 500;
+        font-size: 28px;
+         @include media-breakpoint-down(sm) {
+           font-size: 22px;
+        }
+      }
+      .stacks-block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 40px;
+          @include media-breakpoint-down(sm) {
+            margin-top: 20px;
+        }
+        .stack-item {
+          padding-top: 10px;
+          &:not(:first-child) {
+            margin-left: 10px;
+          }
+          img {
+            height: 40px;
+              @include media-breakpoint-down(sm) {
+           height: 30px;
+        }
+          }
+        }
+      }
+    }
+  }
+  section#works {
+    .work-block {
+      padding: 35px 0;
+      margin: 40px 0;
+      box-shadow: 0 3px 10px 0 rgba(220,220,220, 0.5);
+      img {
+        max-width: 100%;
+      }
+      .work-info {
+        @include media-breakpoint-down(sm) {
+          margin-top: 30px;
+          padding: 0 20px !important;
+        }
+        h4 {
+          font-size: 24px;
+          text-transform: uppercase;
+          font-weight: 700;
+        }
+        h5 {
+          font-size: 16px;
+          line-height: 1.5;
+          margin-top: 10px;
+        }
+
+        .link-button {
+          margin-top: 30px;
+          img{
+            width: 180px;
+              @include media-breakpoint-down(md) {
+          width: 120px;
+        }
+            &:first-child{
+              margin-right: 10px;
+            }
+          }
+          button {
+            position: relative;
+            outline: none;
+            border: 1px solid gray;
+            border-radius: 20px;
+            background-color: transparent;
+            padding: 5px 22px;
+            overflow: hidden;
+             transition: all 0.4s;
+
+            span {
+              transition: all 0.4s;
+              color: #000000;
+              font-weight: 500;
+            }
+
+            .background-layer {
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 0;
+              height: 100%;
+              transition: all 0.4s;
+            }
+            &:hover {
+      border: 1px solid salmon;
+              .background-layer {
+                width: 100%;
+                background-color: salmon;
+                 
+              }
+              span {
+                position: relative;
+                z-index: 2;
+                color: #ffffff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
