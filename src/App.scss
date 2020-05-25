@@ -5,6 +5,7 @@
   section#banner {
     height: 70vh;
     background-color: #ecb0ad;
+    background: linear-gradient(rgb(192, 241, 149), rgb(76, 155, 149));
     @include media-breakpoint-down(sm) {
       height: 90vh;
     }

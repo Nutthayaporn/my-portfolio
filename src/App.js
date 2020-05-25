@@ -129,7 +129,7 @@ function App() {
               alt="Nutthayaporn"
             />
             <h1>Nutthayaporn Lewthanawat</h1>
-            <h2>Full-Stack Developer</h2>
+            <h2>Front-End Developer</h2>
             <div className="stacks-block">
               {stacks.map((stack, index) => {
                 const name = stack.name;
