@@ -1,13 +1,13 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
 .App {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   section#banner {
     height: 70vh;
     background-color: #ecb0ad;
-     @include media-breakpoint-down(sm) {
-           height: 90vh;
-        }
+    @include media-breakpoint-down(sm) {
+      height: 90vh;
+    }
     .info {
       height: 100%;
       display: flex;
@@ -20,23 +20,23 @@
         width: 180px;
         border-radius: 50%;
         margin-bottom: 20px;
-            box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.3);
+        box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.3);
         @include media-breakpoint-down(sm) {
-            width: 150px;
+          width: 150px;
         }
       }
       h1 {
         font-weight: 700;
         font-size: 34px;
         @include media-breakpoint-down(sm) {
-           font-size: 28px;
+          font-size: 28px;
         }
       }
       h2 {
         font-weight: 500;
         font-size: 28px;
-         @include media-breakpoint-down(sm) {
-           font-size: 22px;
+        @include media-breakpoint-down(sm) {
+          font-size: 22px;
         }
       }
       .stacks-block {
@@ -45,8 +45,8 @@
         align-items: center;
         flex-wrap: wrap;
         margin-top: 40px;
-          @include media-breakpoint-down(sm) {
-            margin-top: 20px;
+        @include media-breakpoint-down(sm) {
+          margin-top: 20px;
         }
         .stack-item {
           padding-top: 10px;
@@ -55,9 +55,9 @@
           }
           img {
             height: 40px;
-              @include media-breakpoint-down(sm) {
-           height: 30px;
-        }
+            @include media-breakpoint-down(sm) {
+              height: 30px;
+            }
           }
         }
       }
@@ -67,7 +67,7 @@
     .work-block {
       padding: 35px 0;
       margin: 40px 0;
-      box-shadow: 0 3px 10px 0 rgba(220,220,220, 0.5);
+      box-shadow: 0 3px 10px 0 rgba(220, 220, 220, 0.5);
       img {
         max-width: 100%;
       }
@@ -89,12 +89,12 @@
 
         .link-button {
           margin-top: 30px;
-          img{
+          img {
             width: 180px;
-              @include media-breakpoint-down(md) {
-          width: 120px;
-        }
-            &:first-child{
+            @include media-breakpoint-down(md) {
+              width: 120px;
+            }
+            &:first-child {
               margin-right: 10px;
             }
           }
@@ -106,7 +106,7 @@
             background-color: transparent;
             padding: 5px 22px;
             overflow: hidden;
-             transition: all 0.4s;
+            transition: all 0.4s;
 
             span {
               transition: all 0.4s;
@@ -123,11 +123,10 @@
               transition: all 0.4s;
             }
             &:hover {
-      border: 1px solid salmon;
+              border: 1px solid salmon;
               .background-layer {
                 width: 100%;
                 background-color: salmon;
-                 
               }
               span {
                 position: relative;

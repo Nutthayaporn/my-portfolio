@@ -1,118 +1,118 @@
-import React from 'react';
+import React from "react";
 
-import './App.scss';
-import imgProfile from '../src/assets/images/img_profile.jpg';
-import appStore from '../src/assets/images/app-store.png';
-import googlePlay from '../src/assets/images/google-play.png';
+import "./App.scss";
+import imgProfile from "../src/assets/images/img_profile.jpg";
+import appStore from "../src/assets/images/app-store.png";
+import googlePlay from "../src/assets/images/google-play.png";
 
-import Vproperty from '../src/assets/images/works/Vproperty.png';
-import TiffanyShow from '../src/assets/images/works/TiffanyShow.png';
-import Carfinn from '../src/assets/images/works/Carfinn.png';
-import AnastasiaWeb from '../src/assets/images/works/Anastasia-web.png';
-import LegendSiam from '../src/assets/images/works/LegendSiam.png';
-import anatasiaMobile from '../src/assets/images/works/anatasia-mobile.png';
-import PropAsst from '../src/assets/images/works/PropAsst.png';
+import Vproperty from "../src/assets/images/works/Vproperty.png";
+import TiffanyShow from "../src/assets/images/works/TiffanyShow.png";
+import Carfinn from "../src/assets/images/works/Carfinn.png";
+import AnastasiaWeb from "../src/assets/images/works/Anastasia-web.png";
+import LegendSiam from "../src/assets/images/works/LegendSiam.png";
+import anatasiaMobile from "../src/assets/images/works/anatasia-mobile.png";
+import PropAsst from "../src/assets/images/works/PropAsst.png";
 
-import react from '../src/assets/images/stacks/react.png';
-import reactNative from '../src/assets/images/stacks/react-native.png';
-import nextjs from '../src/assets/images/stacks/nextjs.png';
-import nodejs from '../src/assets/images/stacks/nodejs.png';
-import firebase from '../src/assets/images/stacks/firebase.png';
-import antdesign from '../src/assets/images/stacks/antdesign.png';
-import bootsrap from '../src/assets/images/stacks/bootsrap.png';
+import react from "../src/assets/images/stacks/react.png";
+import reactNative from "../src/assets/images/stacks/react-native.png";
+import nextjs from "../src/assets/images/stacks/nextjs.png";
+import nodejs from "../src/assets/images/stacks/nodejs.png";
+import firebase from "../src/assets/images/stacks/firebase.png";
+import antdesign from "../src/assets/images/stacks/antdesign.png";
+import bootsrap from "../src/assets/images/stacks/bootsrap.png";
 
 const stacks = [
   {
-    name: 'react',
+    name: "react",
     icon: react,
   },
   {
-    name: 'reactNative',
+    name: "reactNative",
     icon: reactNative,
   },
   {
-    name: 'nextjs',
+    name: "nextjs",
     icon: nextjs,
   },
   {
-    name: 'nodejs',
+    name: "nodejs",
     icon: nodejs,
   },
   {
-    name: 'firebase',
+    name: "firebase",
     icon: firebase,
   },
   {
-    name: 'bootsrap',
+    name: "bootsrap",
     icon: bootsrap,
   },
   {
-    name: 'antdesign',
+    name: "antdesign",
     icon: antdesign,
   },
 ];
 
 const myWorks = [
   {
-    name: 'Vproperty',
-    platform: 'web',
+    name: "Vproperty",
+    platform: "web",
     description:
-      'V Property Development is a leader in condominium development near the Bangkok BTS station.',
+      "V Property Development is a leader in condominium development near the Bangkok BTS station.",
     image: Vproperty,
-    link: { web: 'https://www.vproperty.co.th' },
+    link: { web: "https://www.vproperty.co.th" },
   },
   {
-    name: 'Tiffany Show',
-    platform: 'web',
+    name: "Tiffany Show",
+    platform: "web",
     description:
       "Tiffany's Show is the original transvestite cabaret show in Pattaya, a uniquely Thai production now in its 40th year.",
     image: TiffanyShow,
-    link: { web: 'https://www.tiffany-show.co.th' },
+    link: { web: "https://www.tiffany-show.co.th" },
   },
   {
-    name: 'Carfinn',
-    platform: 'web',
+    name: "Carfinn",
+    platform: "web",
     description:
-      'Carfinn International Company Limited is a company that operates a full range of car loan business.',
+      "Carfinn International Company Limited is a company that operates a full range of car loan business.",
     image: Carfinn,
-    link: { web: 'https://carfinn.com' },
+    link: { web: "https://carfinn.com" },
   },
   {
-    name: 'Anastasia Miaray',
-    platform: 'web',
+    name: "Anastasia Miaray",
+    platform: "web",
     description:
-      'ANASTASIA MIARAY Awaken To Beauty by Restyling Your Eyebrows... Gracefully Perfect Arc',
+      "ANASTASIA MIARAY Awaken To Beauty by Restyling Your Eyebrows... Gracefully Perfect Arc",
     image: AnastasiaWeb,
-    link: { web: 'http://anastasiath.herokuapp.com' },
+    link: { web: "http://anastasiath.herokuapp.com" },
   },
   {
-    name: 'Legend Siam',
+    name: "Legend Siam",
     image: LegendSiam,
-    platform: 'web',
+    platform: "web",
     description:
-      'This new theme park in Pattaya is serves as Thai cultural showroom presenting local wisdom and identities from 77 provinces nationwide through art, traditions, beliefs, lifestyle, food, play and performances.',
+      "This new theme park in Pattaya is serves as Thai cultural showroom presenting local wisdom and identities from 77 provinces nationwide through art, traditions, beliefs, lifestyle, food, play and performances.",
     link: {},
   },
   {
-    name: 'Anastasia Miaray Mobile App',
+    name: "Anastasia Miaray Mobile App",
     image: anatasiaMobile,
-    platform: 'app',
-    description: '',
+    platform: "app",
+    description: "",
     link: {
-      googlePlay: 'https://play.google.com/store/apps/details?id=com.anastasia',
-      appStore: 'https://apps.apple.com/th/app/anastasia-miaray/id1494113883',
-      web: '',
+      googlePlay: "https://play.google.com/store/apps/details?id=com.anastasia",
+      appStore: "https://apps.apple.com/th/app/anastasia-miaray/id1494113883",
+      web: "",
     },
   },
   {
-    name: 'Property Assistant by TheAgent',
+    name: "Property Assistant by TheAgent",
     image: PropAsst,
-    platform: 'app',
-    description: '',
+    platform: "app",
+    description: "",
     link: {
-      googlePlay: 'https://play.google.com/store/apps/details?id=com.tenancy',
-      appStore: 'https://apps.apple.com/us/app/prop-asst/id1315563657?ls=1',
-      web: '',
+      googlePlay: "https://play.google.com/store/apps/details?id=com.tenancy",
+      appStore: "https://apps.apple.com/us/app/prop-asst/id1315563657?ls=1",
+      web: "",
     },
   },
 ];
@@ -121,7 +121,7 @@ function App() {
   return (
     <div className="App">
       <section id="banner">
-        <div className="container" style={{ height: '100%' }}>
+        <div className="container" style={{ height: "100%" }}>
           <div className="info">
             <img
               className="profile-image"
@@ -160,20 +160,23 @@ function App() {
                 <div className="row">
                   <div
                     className={`col-md-6 ${
-                      isEven ? 'order-1 order-md-1' : 'order-1 order-md-2'
+                      isEven ? "order-1 order-md-1" : "order-1 order-md-2"
                     }`}
                   >
                     <img src={image} alt={name} />
                   </div>
                   <div
                     className={`col-md-6 ${
-                      isEven ? 'order-2 order-md-2' : 'order-2 order-md-1'
+                      isEven ? "order-2 order-md-2" : "order-2 order-md-1"
                     }`}
                   >
-                    <div className="work-info" style={{ padding: isEven ? '0 20px 0 0' : '0 0 0 30px' }}>
+                    <div
+                      className="work-info"
+                      style={{ padding: isEven ? "0 20px 0 0" : "0 0 0 30px" }}
+                    >
                       <h4>{name}</h4>
                       <h5>{description}</h5>
-                      {link && platform === 'web' && (
+                      {link && platform === "web" && (
                         <div className="link-button">
                           <a href={link} target="_blank">
                             <button>
@@ -183,7 +186,7 @@ function App() {
                           </a>
                         </div>
                       )}
-                      {link && platform === 'app' && (
+                      {link && platform === "app" && (
                         <div className="link-button">
                           <a href={appStoreLink} target="_blank">
                             <img src={appStore} alt="appStore" />
