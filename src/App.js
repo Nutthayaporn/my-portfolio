@@ -150,7 +150,7 @@ function App() {
             const name = myWork.name;
             const description = myWork.description;
             const image = myWork.image;
-            const link = myWork.link;
+            const link = myWork.link?.web;
             const googlePlayLink = myWork.link?.googlePlay;
             const appStoreLink = myWork.link?.appStore;
             const platform = myWork.platform;
