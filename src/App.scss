@@ -4,7 +4,9 @@
   font-family: "Raleway";
   section#banner {
     padding-top: 80px;
-    background: linear-gradient(rgb(192, 241, 149), rgb(76, 155, 149));
+    background-color: rgba(173, 216, 230, 1);
+    background: linear-gradient(rgba(173, 216, 230, 1), rgba(255, 255, 255, 0));
+
     @include media-breakpoint-down(sm) {
       padding-top: 50px;
     }
@@ -101,7 +103,7 @@
           button {
             position: relative;
             outline: none;
-            border: 1px solid gray;
+            border: 1px solid rgb(151, 149, 149);
             border-radius: 20px;
             background-color: transparent;
             padding: 5px 22px;
@@ -123,10 +125,10 @@
               transition: all 0.4s;
             }
             &:hover {
-              border: 1px solid salmon;
+              border: 1px solid rgba(173, 216, 230, 1);;
               .background-layer {
                 width: 100%;
-                background-color: salmon;
+                background-color: rgba(173, 216, 230, 1);;
               }
               span {
                 position: relative;
