@@ -12,6 +12,7 @@ import AnastasiaWeb from "../src/assets/images/works/Anastasia-web.png";
 import LegendSiam from "../src/assets/images/works/LegendSiam.png";
 import anatasiaMobile from "../src/assets/images/works/anatasia-mobile.png";
 import PropAsst from "../src/assets/images/works/PropAsst.png";
+import lacarte from "../src/assets/images/works/lacarte.png";
 
 import react from "../src/assets/images/stacks/react.png";
 import reactNative from "../src/assets/images/stacks/react-native.png";
@@ -112,6 +113,15 @@ const myWorks = [
       googlePlay: "https://play.google.com/store/apps/details?id=com.tenancy",
       appStore: "https://apps.apple.com/us/app/prop-asst/id1315563657?ls=1",
       web: "",
+    },
+  },
+  {
+    name: "LaCarte Food Ordering Platform",
+    image: lacarte,
+    platform: "web",
+    description: "Customers can order for dine-in, take-out, and delivery.",
+    link: {
+      web: "https://lacartemenu.com/",
     },
   },
 ];
