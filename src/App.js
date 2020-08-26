@@ -54,15 +54,15 @@ const stacks = [
 ];
 
 const myWorks = [
-  {
-    name: "LaCarte Food Ordering Platform",
-    image: lacarte,
-    platform: "web",
-    description: "Customers can order for dine-in, take-out, and delivery.",
-    link: {
-      web: "https://lacartemenu.com/",
-    },
-  },
+  // {
+  //   name: "LaCarte Food Ordering Platform",
+  //   image: lacarte,
+  //   platform: "web",
+  //   description: "Customers can order for dine-in, take-out, and delivery.",
+  //   link: {
+  //     web: "https://lacartemenu.com/",
+  //   },
+  // },
   {
     name: "Vproperty",
     platform: "web",
